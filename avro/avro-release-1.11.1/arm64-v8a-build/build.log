@@ -1,0 +1,894 @@
+-- The C compiler identification is Clang 15.0.4
+-- Check for working C compiler: /home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang
+-- Check for working C compiler: /home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ZLIB: /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/aarch64-linux-ohos/libz.so (found version "1.2.12") 
+Enabled deflate codec
+-- Could NOT find Snappy (missing: SNAPPY_LIBRARIES SNAPPY_INCLUDE_DIR) 
+Disabled snappy codec. libsnappy not found or zlib not found.
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'liblzma'
+--   No package 'liblzma' found
+Disabled lzma codec. liblzma not found.
+-- Checking for module 'jansson>=2.3'
+--   Found jansson, version 2.14
+-- Searching for asciidoc...
+CMake Warning at docs/CMakeLists.txt:51 (message):
+  asciidoc and/or source-highlight not found.  HTML documentation will *NOT*
+  be built.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build
+-- Cache values
+ASCIIDOC_EXECUTABLE:FILEPATH=ASCIIDOC_EXECUTABLE-NOTFOUND
+CMAKE_ASM_FLAGS:STRING=
+CMAKE_ASM_FLAGS_DEBUG:STRING=
+CMAKE_ASM_FLAGS_RELEASE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_CXX_FLAGS:STRING=
+CMAKE_CXX_FLAGS_DEBUG:STRING=
+CMAKE_CXX_FLAGS_RELEASE:STRING=
+CMAKE_INSTALL_PREFIX:PATH=/home/xuwenlong/lycium/usr/avro/arm64-v8a
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/xuwenlong/ohos-sdk/linux/native/build/cmake/ohos.toolchain.cmake
+MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
+SOURCE_HIGHLIGHT_EXECUTABLE:FILEPATH=SOURCE_HIGHLIGHT_EXECUTABLE-NOTFOUND
+make: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[1]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target avro-static
+Scanning dependencies of target avro-shared
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[  1%] Building C object src/CMakeFiles/avro-static.dir/allocation.c.o
+[  1%] Building C object src/CMakeFiles/avro-shared.dir/allocation.c.o
+[  2%] Building C object src/CMakeFiles/avro-static.dir/array.c.o
+[  3%] Building C object src/CMakeFiles/avro-shared.dir/array.c.o
+clangclangclangclang: : : : warning: warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+
+[  5%] Building C object src/CMakeFiles/avro-shared.dir/consumer.c.o
+[  5%] Building C object src/CMakeFiles/avro-static.dir/codec.c.o
+[  5%] Building C object src/CMakeFiles/avro-shared.dir/codec.c.o
+[  5%] Building C object src/CMakeFiles/avro-static.dir/consumer.c.o
+clangclangclangclang: : : : warning: warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+
+[  7%] Building C object src/CMakeFiles/avro-static.dir/consume-binary.c.o
+[  7%] Building C object src/CMakeFiles/avro-shared.dir/consume-binary.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[  9%] Building C object src/CMakeFiles/avro-static.dir/datafile.c.o
+[  9%] Building C object src/CMakeFiles/avro-shared.dir/datafile.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 11%] Building C object src/CMakeFiles/avro-static.dir/datum.c.o
+[ 11%] Building C object src/CMakeFiles/avro-shared.dir/datum.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 11%] Building C object src/CMakeFiles/avro-shared.dir/datum_equal.c.o
+[ 11%] Building C object src/CMakeFiles/avro-static.dir/datum_equal.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 13%] Building C object src/CMakeFiles/avro-static.dir/datum_read.c.o
+[ 13%] Building C object src/CMakeFiles/avro-shared.dir/datum_read.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 15%] Building C object src/CMakeFiles/avro-shared.dir/datum_size.c.o
+[ 15%] Building C object src/CMakeFiles/avro-static.dir/datum_size.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 17%] Building C object src/CMakeFiles/avro-shared.dir/datum_skip.c.o
+[ 17%] Building C object src/CMakeFiles/avro-static.dir/datum_skip.c.o
+clangclang: : warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]warning: 
+argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 17%] Building C object src/CMakeFiles/avro-shared.dir/datum_validate.c.o
+[ 17%] Building C object src/CMakeFiles/avro-static.dir/datum_validate.c.o
+clangclang: : warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]warning: 
+argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 19%] Building C object src/CMakeFiles/avro-shared.dir/datum_value.c.o
+[ 19%] Building C object src/CMakeFiles/avro-static.dir/datum_value.c.o
+clangclang: : warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]warning: 
+argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/datum_value.c/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/datum_value.c::8686::22::  warning: warning: "Bug: EINVAL is not of type avro_type_t." [-W#warnings]"Bug: EINVAL is not of type avro_type_t." [-W#warnings]
+
+#warning "Bug: EINVAL is not of type avro_type_t."#warning "Bug: EINVAL is not of type avro_type_t."
+
+ ^ ^
+
+[ 20%] Building C object src/CMakeFiles/avro-shared.dir/datum_write.c.o
+[ 21%] Building C object src/CMakeFiles/avro-shared.dir/dump.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 22%] Building C object src/CMakeFiles/avro-static.dir/datum_write.c.o
+[ 22%] Building C object src/CMakeFiles/avro-shared.dir/encoding_binary.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+11 warning warning generated generated.
+.
+[ 23%] Building C object src/CMakeFiles/avro-static.dir/dump.c.o
+[ 23%] Building C object src/CMakeFiles/avro-static.dir/encoding_binary.c.o
+[ 24%] Building C object src/CMakeFiles/avro-static.dir/errors.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 25%] Building C object src/CMakeFiles/avro-static.dir/generic.c.o
+[ 26%] Building C object src/CMakeFiles/avro-static.dir/io.c.o
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 27%] Building C object src/CMakeFiles/avro-shared.dir/errors.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 28%] Building C object src/CMakeFiles/avro-shared.dir/generic.c.o
+[ 28%] Building C object src/CMakeFiles/avro-static.dir/map.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 29%] Building C object src/CMakeFiles/avro-static.dir/memoize.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 30%] Building C object src/CMakeFiles/avro-static.dir/resolved-reader.c.o
+[ 31%] Building C object src/CMakeFiles/avro-static.dir/resolved-writer.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 31%] Building C object src/CMakeFiles/avro-static.dir/resolver.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 32%] Building C object src/CMakeFiles/avro-shared.dir/io.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 32%] Building C object src/CMakeFiles/avro-shared.dir/map.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 33%] Building C object src/CMakeFiles/avro-shared.dir/memoize.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 34%] Building C object src/CMakeFiles/avro-static.dir/schema.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 35%] Building C object src/CMakeFiles/avro-shared.dir/resolved-reader.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 36%] Building C object src/CMakeFiles/avro-static.dir/schema_equal.c.o
+[ 37%] Building C object src/CMakeFiles/avro-static.dir/st.c.o
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/schema.c:882:3: warning: "Bug: '0' is not of type avro_type_t." [-W#warnings]
+ #warning "Bug: '0' is not of type avro_type_t."
+  ^
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:240:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash(key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:241:2: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        FIND_ENTRY(table, ptr, hash_val, bin_pos);
+        ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:226:9: note: expanded from macro 'FIND_ENTRY'
+    if (PTR_NOT_EQUAL(table, ptr, hash_val, key)) {\
+        ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:215:45: note: expanded from macro 'PTR_NOT_EQUAL'
+((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+                                            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:241:2: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:228:9: note: expanded from macro 'FIND_ENTRY'
+        while (PTR_NOT_EQUAL(table, ptr->next, hash_val, key)) {\
+               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:215:45: note: expanded from macro 'PTR_NOT_EQUAL'
+((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+                                            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:275:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash(key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:276:2: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        FIND_ENTRY(table, ptr, hash_val, bin_pos);
+        ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:226:9: note: expanded from macro 'FIND_ENTRY'
+    if (PTR_NOT_EQUAL(table, ptr, hash_val, key)) {\
+        ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:215:45: note: expanded from macro 'PTR_NOT_EQUAL'
+((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+                                            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:276:2: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:228:9: note: expanded from macro 'FIND_ENTRY'
+        while (PTR_NOT_EQUAL(table, ptr->next, hash_val, key)) {\
+               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:215:45: note: expanded from macro 'PTR_NOT_EQUAL'
+((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+                                            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:291:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash(key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:366:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash_bin(*key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:70:33: note: expanded from macro 'do_hash_bin'
+#define do_hash_bin(key,table) (do_hash(key, table)%(table)->num_bins)
+                                ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:375:6: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        if (EQUAL(table, *key, ptr->key)) {
+            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:386:7: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+                if (EQUAL(table, ptr->next->key, *key)) {
+                    ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:406:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash_bin(*key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:70:33: note: expanded from macro 'do_hash_bin'
+#define do_hash_bin(key,table) (do_hash(key, table)%(table)->num_bins)
+                                ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:416:30: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+                if ((ptr->key != never) && EQUAL(table, ptr->key, *key)) {
+                                           ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:455:38: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+                        retval = (enum st_retval) (*func) (ptr->key, ptr->record, arg);
+                                                          ^
+[ 37%] Building C object src/CMakeFiles/avro-static.dir/string.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 38%] Building C object src/CMakeFiles/avro-static.dir/value.c.o
+13 warnings generated.
+[ 39%] Building C object src/CMakeFiles/avro-static.dir/value-hash.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 40%] Building C object src/CMakeFiles/avro-static.dir/value-json.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 40%] Building C object src/CMakeFiles/avro-static.dir/value-read.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+1 warning generated.
+[ 41%] Building C object src/CMakeFiles/avro-static.dir/value-sizeof.c.o
+[ 42%] Building C object src/CMakeFiles/avro-static.dir/value-write.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 42%] Building C object src/CMakeFiles/avro-static.dir/wrapped-buffer.c.o
+[ 43%] Building C object src/CMakeFiles/avro-shared.dir/resolved-writer.c.o
+[ 43%] Building C object src/CMakeFiles/avro-shared.dir/resolver.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clangclang: : warning: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+
+[ 44%] Linking C static library libavro.a
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 44%] Built target avro-static
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target avroappend
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 45%] Building C object src/CMakeFiles/avroappend.dir/avroappend.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 46%] Building C object src/CMakeFiles/avro-shared.dir/schema.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 47%] Linking C executable avroappend
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/schema.c:882:3: warning: "Bug: '0' is not of type avro_type_t." [-W#warnings]
+ #warning "Bug: '0' is not of type avro_type_t."
+  ^
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 47%] Built target avroappend
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target avrocat
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 47%] Building C object src/CMakeFiles/avrocat.dir/avrocat.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 48%] Linking C executable avrocat
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 49%] Building C object src/CMakeFiles/avro-shared.dir/schema_equal.c.o
+[ 49%] Built target avrocat
+[ 50%] Building C object src/CMakeFiles/avro-shared.dir/st.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:240:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash(key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:241:2: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        FIND_ENTRY(table, ptr, hash_val, bin_pos);
+        ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:226:9: note: expanded from macro 'FIND_ENTRY'
+    if (PTR_NOT_EQUAL(table, ptr, hash_val, key)) {\
+        ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:215:45: note: expanded from macro 'PTR_NOT_EQUAL'
+((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+                                            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:241:2: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:228:9: note: expanded from macro 'FIND_ENTRY'
+        while (PTR_NOT_EQUAL(table, ptr->next, hash_val, key)) {\
+               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:215:45: note: expanded from macro 'PTR_NOT_EQUAL'
+((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+                                            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:275:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash(key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:276:2: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        FIND_ENTRY(table, ptr, hash_val, bin_pos);
+        ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:226:9: note: expanded from macro 'FIND_ENTRY'
+    if (PTR_NOT_EQUAL(table, ptr, hash_val, key)) {\
+        ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:215:45: note: expanded from macro 'PTR_NOT_EQUAL'
+((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+                                            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:276:2: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:228:9: note: expanded from macro 'FIND_ENTRY'
+        while (PTR_NOT_EQUAL(table, ptr->next, hash_val, key)) {\
+               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:215:45: note: expanded from macro 'PTR_NOT_EQUAL'
+((ptr) != 0 && (ptr->hash != (hash_val) || !EQUAL((table), (key), (ptr)->key)))
+                                            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:291:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash(key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:366:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash_bin(*key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:70:33: note: expanded from macro 'do_hash_bin'
+#define do_hash_bin(key,table) (do_hash(key, table)%(table)->num_bins)
+                                ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:375:6: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        if (EQUAL(table, *key, ptr->key)) {
+            ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:386:7: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+                if (EQUAL(table, ptr->next->key, *key)) {
+                    ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:406:13: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+        hash_val = do_hash_bin(*key, table);
+                   ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:70:33: note: expanded from macro 'do_hash_bin'
+#define do_hash_bin(key,table) (do_hash(key, table)%(table)->num_bins)
+                                ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:69:64: note: expanded from macro 'do_hash'
+#define do_hash(key,table) (unsigned int)(*(table)->type->hash)((key))
+                                                               ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:416:30: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+                if ((ptr->key != never) && EQUAL(table, ptr->key, *key)) {
+                                           ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:67:62: note: expanded from macro 'EQUAL'
+#define EQUAL(table,x,y) ((x)==(y) || (*table->type->compare)((x),(y)) == 0)
+                                                             ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/st.c:455:38: warning: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+                        retval = (enum st_retval) (*func) (ptr->key, ptr->record, arg);
+                                                          ^
+[ 50%] Building C object src/CMakeFiles/avro-shared.dir/string.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 51%] Building C object src/CMakeFiles/avro-shared.dir/value.c.o
+13 warnings generated.
+[ 52%] Building C object src/CMakeFiles/avro-shared.dir/value-hash.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+1 warning generated.
+[ 53%] Building C object src/CMakeFiles/avro-shared.dir/value-json.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 53%] Building C object src/CMakeFiles/avro-shared.dir/value-read.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 54%] Building C object src/CMakeFiles/avro-shared.dir/value-sizeof.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 55%] Building C object src/CMakeFiles/avro-shared.dir/value-write.c.o
+[ 56%] Building C object src/CMakeFiles/avro-shared.dir/wrapped-buffer.c.o
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target avromod
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 57%] Building C object src/CMakeFiles/avromod.dir/avromod.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target avropipe
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 57%] Building C object src/CMakeFiles/avropipe.dir/avropipe.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target quickstop
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 58%] Building C object examples/CMakeFiles/quickstop.dir/quickstop.c.o
+[ 59%] Linking C executable avromod
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 59%] Linking C shared library libavro.so
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/examples/quickstop.c:123:40: warning: incompatible pointer types passing 'int32_t **' (aka 'int **') to parameter of type 'const char **' [-Wincompatible-pointer-types]
+                        avro_value_get_string(&first_value, &p, &size);
+                                                            ^~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/avro/value.h:440:48: note: expanded from macro 'avro_value_get_string'
+    avro_value_call(value, get_string, EINVAL, str, size)
+                                               ^~~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/avro/value.h:408:60: note: expanded from macro 'avro_value_call'
+     (value)->iface->method((value)->iface, (value)->self, __VA_ARGS__))
+                                                           ^~~~~~~~~~~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/examples/quickstop.c:124:31: warning: format specifies type 'char *' but the argument has type 'int32_t *' (aka 'int *') [-Wformat]
+                        fprintf(stdout, "%15s | ", p);
+                                         ~~~~      ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/examples/quickstop.c:127:39: warning: incompatible pointer types passing 'int32_t **' (aka 'int **') to parameter of type 'const char **' [-Wincompatible-pointer-types]
+                        avro_value_get_string(&last_value, &p, &size);
+                                                           ^~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/avro/value.h:440:48: note: expanded from macro 'avro_value_get_string'
+    avro_value_call(value, get_string, EINVAL, str, size)
+                                               ^~~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/avro/value.h:408:60: note: expanded from macro 'avro_value_call'
+     (value)->iface->method((value)->iface, (value)->self, __VA_ARGS__))
+                                                           ^~~~~~~~~~~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/examples/quickstop.c:128:31: warning: format specifies type 'char *' but the argument has type 'int32_t *' (aka 'int *') [-Wformat]
+                        fprintf(stdout, "%15s | ", p);
+                                         ~~~~      ^
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/examples/quickstop.c:131:40: warning: incompatible pointer types passing 'int32_t **' (aka 'int **') to parameter of type 'const char **' [-Wincompatible-pointer-types]
+                        avro_value_get_string(&phone_value, &p, &size);
+                                                            ^~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/avro/value.h:440:48: note: expanded from macro 'avro_value_get_string'
+    avro_value_call(value, get_string, EINVAL, str, size)
+                                               ^~~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/src/avro/value.h:408:60: note: expanded from macro 'avro_value_call'
+     (value)->iface->method((value)->iface, (value)->self, __VA_ARGS__))
+                                                           ^~~~~~~~~~~
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/examples/quickstop.c:132:31: warning: format specifies type 'char *' but the argument has type 'int32_t *' (aka 'int *') [-Wformat]
+                        fprintf(stdout, "%15s | ", p);
+                                         ~~~~      ^
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 59%] Built target avromod
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1904
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 59%] Building C object tests/CMakeFiles/test_avro_1904.dir/test_avro_1904.c.o
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 59%] Built target avro-shared
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+Scanning dependencies of target test_avro_1379
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 60%] Linking C executable avropipe
+[ 60%] Building C object tests/CMakeFiles/test_avro_1379.dir/test_avro_1379.c.o
+6 warnings generated.
+[ 61%] Linking C executable quickstop
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 61%] Built target avropipe
+[ 62%] Linking C executable test_avro_1904
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_984
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 62%] Building C object tests/CMakeFiles/test_avro_984.dir/test_avro_984.c.o
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 62%] Built target quickstop
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_refcount
+[ 63%] Linking C executable test_avro_1379
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 64%] Building C object tests/CMakeFiles/test_refcount.dir/test_refcount.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 64%] Built target test_avro_1904
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_968
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 65%] Building C object tests/CMakeFiles/test_avro_968.dir/test_avro_968.c.o
+[ 65%] Built target test_avro_1379
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 66%] Linking C executable test_refcount
+Scanning dependencies of target test_avro_values
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 66%] Building C object tests/CMakeFiles/test_avro_values.dir/test_avro_values.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/tests/test_avro_values.c:96:41: warning: implicit conversion from 'long' to 'double' changes value from 9223372036854775807 to 9223372036854775808 [-Wimplicit-const-int-float-conversion]
+        return (int64_t) rand_number(LONG_MIN, LONG_MAX);
+                         ~~~~~~~~~~~           ^~~~~~~~
+/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include/limits.h:47:19: note: expanded from macro 'LONG_MAX'
+#define LONG_MAX  __LONG_MAX__
+                  ^~~~~~~~~~~~
+<built-in>:46:22: note: expanded from here
+#define __LONG_MAX__ 9223372036854775807L
+                     ^~~~~~~~~~~~~~~~~~~~
+[ 66%] Built target test_refcount
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 67%] Linking C executable test_avro_968
+[ 68%] Linking C executable test_avro_984
+Scanning dependencies of target test_avro_schema_names
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 69%] Building C object tests/CMakeFiles/test_avro_schema_names.dir/test_avro_schema_names.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 69%] Built target test_avro_968
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_schema
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 69%] Built target test_avro_984
+[ 69%] Building C object tests/CMakeFiles/test_avro_schema.dir/test_avro_schema.c.o
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_766
+[ 70%] Linking C executable test_avro_schema_names
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 70%] Building C object tests/CMakeFiles/test_avro_766.dir/test_avro_766.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 70%] Built target test_avro_schema_names
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 71%] Linking C executable test_avro_766
+Scanning dependencies of target test_avro_1405
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 72%] Building C object tests/CMakeFiles/test_avro_1405.dir/test_avro_1405.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 73%] Linking C executable test_avro_schema
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 73%] Built target test_avro_766
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target generate_interop_data
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 74%] Building C object tests/CMakeFiles/generate_interop_data.dir/generate_interop_data.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 74%] Built target test_avro_schema
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_interop_data
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 75%] Linking C executable test_avro_1405
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 75%] Building C object tests/CMakeFiles/test_interop_data.dir/test_interop_data.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 76%] Linking C executable generate_interop_data
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 76%] Built target test_avro_1405
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1906
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 77%] Building C object tests/CMakeFiles/test_avro_1906.dir/test_avro_1906.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 78%] Linking C executable test_interop_data
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 78%] Built target generate_interop_data
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target performance
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 78%] Building C object tests/CMakeFiles/performance.dir/performance.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 78%] Built target test_interop_data
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1034
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/tests/performance.c:57:41: warning: implicit conversion from 'long' to 'double' changes value from 9223372036854775807 to 9223372036854775808 [-Wimplicit-const-int-float-conversion]
+        return (int64_t) rand_number(LONG_MIN, LONG_MAX);
+                         ~~~~~~~~~~~           ^~~~~~~~
+/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include/limits.h:47:19: note: expanded from macro 'LONG_MAX'
+#define LONG_MAX  __LONG_MAX__
+                  ^~~~~~~~~~~~
+<built-in>:46:22: note: expanded from here
+#define __LONG_MAX__ 9223372036854775807L
+                     ^~~~~~~~~~~~~~~~~~~~
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 78%] Building C object tests/CMakeFiles/test_avro_1034.dir/test_avro_1034.c.o
+[ 79%] Linking C executable test_avro_1906
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 79%] Built target test_avro_1906
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1167
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 79%] Building C object tests/CMakeFiles/test_avro_1167.dir/test_avro_1167.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 80%] Linking C executable test_avro_1034
+[ 81%] Linking C executable test_avro_1167
+1 warning generated.
+[ 82%] Linking C executable performance
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 82%] Built target test_avro_1034
+1 warning generated.
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1691
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 83%] Linking C executable test_avro_values
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 83%] Built target test_avro_1167
+[ 84%] Building C object tests/CMakeFiles/test_avro_1691.dir/test_avro_1691.c.o
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1572
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 84%] Building C object tests/CMakeFiles/test_avro_1572.dir/test_avro_1572.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 84%] Built target test_avro_values
+[ 84%] Built target performance
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1084
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1087
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 85%] Building C object tests/CMakeFiles/test_avro_1084.dir/test_avro_1084.c.o
+[ 85%] Building C object tests/CMakeFiles/test_avro_1087.dir/test_avro_1087.c.o
+[ 86%] Linking C executable test_avro_1691
+clangclang: : warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]warning: 
+argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+[ 87%] Linking C executable test_avro_1572
+[ 88%] Linking C executable test_avro_1084
+[ 89%] Linking C executable test_avro_1087
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 89%] Built target test_avro_1691
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1165
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 90%] Building C object tests/CMakeFiles/test_avro_1165.dir/test_avro_1165.c.o
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 90%] Built target test_avro_1572
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+Scanning dependencies of target test_avro_1238
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 90%] Building C object tests/CMakeFiles/test_avro_1238.dir/test_avro_1238.c.o
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 90%] Built target test_avro_1084
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 90%] Built target test_avro_1087
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_data_structures
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1237
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 91%] Building C object tests/CMakeFiles/test_data_structures.dir/test_data_structures.c.o
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 92%] Building C object tests/CMakeFiles/test_avro_1237.dir/test_avro_1237.c.o
+[ 93%] Linking C executable test_avro_1165
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 94%] Linking C executable test_avro_1238
+[ 94%] Built target test_avro_1165
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_1279
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 95%] Linking C executable test_avro_1237
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 96%] Building C object tests/CMakeFiles/test_avro_1279.dir/test_avro_1279.c.o
+[ 97%] Linking C executable test_data_structures
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 97%] Built target test_avro_1238
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Scanning dependencies of target test_avro_data
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 97%] Built target test_avro_1237
+[ 99%] Building C object tests/CMakeFiles/test_avro_data.dir/test_avro_data.c.o
+[ 99%] Linking C executable test_avro_1279
+[ 99%] Built target test_data_structures
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c/tests/test_avro_data.c:78:41: warning: implicit conversion from 'long' to 'double' changes value from 9223372036854775807 to 9223372036854775808 [-Wimplicit-const-int-float-conversion]
+        return (int64_t) rand_number(LONG_MIN, LONG_MAX);
+                         ~~~~~~~~~~~           ^~~~~~~~
+/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include/limits.h:47:19: note: expanded from macro 'LONG_MAX'
+#define LONG_MAX  __LONG_MAX__
+                  ^~~~~~~~~~~~
+<built-in>:46:22: note: expanded from here
+#define __LONG_MAX__ 9223372036854775807L
+                     ^~~~~~~~~~~~~~~~~~~~
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 99%] Built target test_avro_1279
+1 warning generated.
+[100%] Linking C executable test_avro_data
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[100%] Built target test_avro_data
+make[1]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[1]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 27%] Built target avro-static
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 29%] Built target avroappend
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 30%] Built target avrocat
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 32%] Built target avromod
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 58%] Built target avro-shared
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 59%] Built target avropipe
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 61%] Built target quickstop
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 62%] Built target test_avro_1904
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 63%] Built target test_avro_1379
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 64%] Built target test_avro_984
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 66%] Built target test_refcount
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 68%] Built target test_avro_968
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 69%] Built target test_avro_values
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 71%] Built target test_avro_schema_names
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 72%] Built target test_avro_schema
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 73%] Built target test_avro_766
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 75%] Built target test_avro_1405
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 77%] Built target generate_interop_data
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 78%] Built target test_interop_data
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 80%] Built target test_avro_1906
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 81%] Built target performance
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 82%] Built target test_avro_1034
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 83%] Built target test_avro_1167
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 85%] Built target test_avro_1691
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 86%] Built target test_avro_1572
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 88%] Built target test_avro_1084
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 89%] Built target test_avro_1087
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 91%] Built target test_avro_1165
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 92%] Built target test_avro_1238
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 94%] Built target test_data_structures
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 96%] Built target test_avro_1237
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[ 98%] Built target test_avro_1279
+make[2]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+make[2]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+[100%] Built target test_avro_data
+make[1]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/value.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/data.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/msinttypes.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/consumer.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/resolver.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/generic.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/platform.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/errors.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/io.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/msstdint.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/basics.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/allocation.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/schema.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/refcount.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/include/avro/legacy.h
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/lib/libavro.a
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/lib/libavro.so.23.0.0
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/lib/libavro.so.23
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/lib/libavro.so
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/lib/pkgconfig/avro-c.pc
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/bin/avrocat
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/bin/avroappend
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/bin/avropipe
+-- Installing: /home/xuwenlong/lycium/usr/avro/arm64-v8a/bin/avromod
+make: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/arm64-v8a-build”

@@ -1,0 +1,158 @@
+The target system is: OHOS - 1 - arm
+The host system is: Linux - 5.15.0-73-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/3.16.5/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0419/fast && /usr/bin/make -f CMakeFiles/cmTC_b0419.dir/build.make CMakeFiles/cmTC_b0419.dir/build
+make[1]: 进入目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b0419.dir/testCCompiler.c.o
+/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm --sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot -DOHOS_NDK  -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -march=armv7a  -D__MUSL__  -fPIE   -o CMakeFiles/cmTC_b0419.dir/testCCompiler.c.o   -c /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp/testCCompiler.c
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+Linking C executable cmTC_b0419
+/home/xuwenlong/ohos-sdk/linux/native/build-tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0419.dir/link.txt --verbose=1
+/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm --sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -march=armv7a  -D__MUSL__   --rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections   CMakeFiles/cmTC_b0419.dir/testCCompiler.c.o  -o cmTC_b0419  -lm 
+make[1]: 离开目录“/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0faa/fast && /usr/bin/make -f CMakeFiles/cmTC_f0faa.dir/build.make CMakeFiles/cmTC_f0faa.dir/build
+make[1]: Entering directory '/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o
+/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm --sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot -DOHOS_NDK  -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -march=armv7a  -D__MUSL__  -fPIE   -v -o CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o   -c /home/xuwenlong/ohos-sdk/linux/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+OHOS (dev) clang version 15.0.4 (llvm-project 0251923f097a7cc0ce31d701519010c7e82b48c4)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: /home/xuwenlong/ohos-sdk/linux/native/llvm/bin
+clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp -resource-dir /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4 -D OHOS_NDK -D __MUSL__ -isysroot /home/xuwenlong/ohos-sdk/linux/native/sysroot -internal-isystem /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem /home/xuwenlong/ohos-sdk/linux/native/sysroot/include -internal-externc-isystem /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir=/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o -x c /home/xuwenlong/ohos-sdk/linux/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/xuwenlong/ohos-sdk/linux/native/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include
+ /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include/arm-linux-ohos
+ /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include
+End of search list.
+Linking C executable cmTC_f0faa
+/home/xuwenlong/ohos-sdk/linux/native/build-tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0faa.dir/link.txt --verbose=1
+/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm --sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -march=armv7a  -D__MUSL__   --rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections  -v CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o  -o cmTC_f0faa 
+OHOS (dev) clang version 15.0.4 (llvm-project 0251923f097a7cc0ce31d701519010c7e82b48c4)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: /home/xuwenlong/ohos-sdk/linux/native/llvm/bin
+ "/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/ld.lld" --sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot -pie -EL -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_f0faa /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/crti.o /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o -L/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos -L/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/ -L/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/../lib/arm-linux-ohos/ -L/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/crtn.o
+make[1]: Leaving directory '/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include]
+    add: [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include/arm-linux-ohos]
+    add: [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include] ==> [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include]
+  collapse include dir [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include/arm-linux-ohos] ==> [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include] ==> [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include]
+  implicit include dirs: [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include;/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include/arm-linux-ohos;/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f0faa/fast && /usr/bin/make -f CMakeFiles/cmTC_f0faa.dir/build.make CMakeFiles/cmTC_f0faa.dir/build]
+  ignore line: [make[1]: Entering directory '/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm --sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot -DOHOS_NDK  -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa --noexecstack -Wformat -Werror=format-security -march=armv7a  -D__MUSL__  -fPIE   -v -o CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o   -c /home/xuwenlong/ohos-sdk/linux/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project 0251923f097a7cc0ce31d701519010c7e82b48c4)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/xuwenlong/ohos-sdk/linux/native/llvm/bin]
+  ignore line: [clang: warning: argument unused during compilation: '--gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp -resource-dir /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4 -D OHOS_NDK -D __MUSL__ -isysroot /home/xuwenlong/ohos-sdk/linux/native/sysroot -internal-isystem /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem /home/xuwenlong/ohos-sdk/linux/native/sysroot/include -internal-externc-isystem /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir=/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/armeabi-v7a-build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o -x c /home/xuwenlong/ohos-sdk/linux/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/xuwenlong/ohos-sdk/linux/native/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/include]
+  ignore line: [ /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_f0faa]
+  ignore line: [/home/xuwenlong/ohos-sdk/linux/native/build-tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0faa.dir/link.txt --verbose=1]
+  ignore line: [/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/xuwenlong/ohos-sdk/linux/native/llvm --sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -march=armv7a  -D__MUSL__   --rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections  -v CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o  -o cmTC_f0faa ]
+  ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project 0251923f097a7cc0ce31d701519010c7e82b48c4)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/xuwenlong/ohos-sdk/linux/native/llvm/bin]
+  link line: [ "/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/ld.lld" --sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot -pie -EL -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_f0faa /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/crti.o /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o -L/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos -L/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/ -L/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/../lib/arm-linux-ohos/ -L/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o /home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/crtn.o]
+    arg [/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/xuwenlong/ohos-sdk/linux/native/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f0faa] ==> ignore
+    arg [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o] ==> ignore
+    arg [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/crti.o] ==> ignore
+    arg [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o] ==> ignore
+    arg [-L/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos] ==> dir [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos]
+    arg [-L/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/] ==> dir [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/]
+    arg [-L/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/../lib/arm-linux-ohos/] ==> dir [/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/../lib/arm-linux-ohos/]
+    arg [-L/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/] ==> dir [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/]
+    arg [--build-id=sha1] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_f0faa.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o] ==> ignore
+    arg [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/crtn.o] ==> ignore
+  remove lib [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  remove lib [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  collapse library dir [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos] ==> [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos]
+  collapse library dir [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/] ==> [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib]
+  collapse library dir [/home/xuwenlong/ohos-sdk/linux/native/llvm/bin/../lib/arm-linux-ohos/] ==> [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/arm-linux-ohos]
+  collapse library dir [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos/] ==> [/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos]
+  implicit libs: [unwind;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos;/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib;/home/xuwenlong/ohos-sdk/linux/native/llvm/lib/arm-linux-ohos;/home/xuwenlong/ohos-sdk/linux/native/sysroot/usr/lib/arm-linux-ohos]
+  implicit fwks: []
+
+
