@@ -1,0 +1,36 @@
+xwx1264423
+
+\\192.168.3.111\work
+
+/data/lycium/main/FFmpeg/FFmpeg-armeabi-v7a-build/FFmpeg-n6.0/
+//arm编译FFmpeg
+git clone https://gitee.com/han_jin_fei/lycium
+
+sudo apt-get install yasm
+
+make fate-rsync SAMPLES=fate-suite/
+
+
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data/lycium/main/FFmpeg/FFmpeg-armeabi-v7a-build/FFmpeg-n6.0/libavutil:/data/lycium/main/FFmpeg/FFmpeg-armeabi-v7a-build/FFmpeg-n6.0/libavfilter:/data/lycium/main/FFmpeg/FFmpeg-armeabi-v7a-build/FFmpeg-n6.0/libavcodec:/data/lycium/main/FFmpeg/FFmpeg-armeabi-v7a-build/FFmpeg-n6.0/libavdevice:/data/lycium/main/FFmpeg/FFmpeg-armeabi-v7a-build/FFmpeg-n6.0/libavformat:/data/lycium/main/FFmpeg/FFmpeg-armeabi-v7a-build/FFmpeg-n6.0/libswresample:/data/lycium/main/FFmpeg/FFmpeg-armeabi-v7a-build/FFmpeg-n6.0/libswscale
+
+make fate
+make fate SAMPLES=./fate-suite
+
+
+
+
+//x86编译FFmpeg
+git clone https://github.com/FFmpeg/FFmpeg.git
+./configure --prefix=/home/xucaiming/workspaces/x86_FFmpeg/FFmpeg/build --enable-static --enable-shared
+make -j8
+make install
+make fate-rsync SAMPLES=fate-suite/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/xucaiming/workspaces/x86_FFmpeg/FFmpeg/build/lib
+make fate SAMPLES=./fate-suite
+
+
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data/local/tmp/lycium/usr/zstd/armeabi-v7a/lib:data/local/tmp/lycium/usr/libwebp/armeabi-v7a/lib:data/local/tmp/lycium/usr/xz/armeabi-v7a/lib:data/local/tmp/lycium/usr/libjpeg-turbo/armeabi-v7a/lib:/data/local/tmp/lycium/usr/libpng/armeabi-v7a/lib:/data/local/tmp/lycium/usr/tiff/armeabi-v7a/lib:/data/local/tmp/lycium/usr/libdeflate/armeabi-v7a/lib
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH://data/lycium/usr/FFmpeg/arm64-v8a/lib
