@@ -64,7 +64,7 @@
 - 在IDE的cpp目录下新增thirdparty目录，将编译生成的库拷贝到该目录下，如下图所示:
   ![thirdparty_install_dir](pic/avrocpp_install_dir.png)
  
-- 在最外层（cpp目录下）CMakeLists.txt中添加如下语句
+- 在最外层（entry/src/main/cpp)目录下CMakeLists.txt中添加如下语句
 
   ```shell
   #将三方库加入工程中
@@ -77,6 +77,7 @@
   #将三方库的头文件加入工程中
   target_include_directories(entry PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/avrocpp/${OHOS_ARCH}/include)
   ```
+  在entry/build-profile.json5
 
 ## 测试三方库
 
