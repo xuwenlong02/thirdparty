@@ -1,0 +1,742 @@
+Start testing: Jun 16 15:15 CST
+----------------------------------------------------------
+1/12 Testing: buffertest
+1/12 Test: buffertest
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/buffertest"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"buffertest" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 21 test cases...
+Intentionally triggered exception: trying to discard more data than exists
+Intentionally triggered exception: trying to extract more data than exists
+Buffer has 12288 bytes
+Buffer has 10240 bytes
+Buffer has 10240 bytes
+Bytes avail = 4096
+Bytes read = 4096
+Bytes avail = 4096
+Bytes read = 4096
+Bytes avail = 2048
+Bytes read = 2048
+Starting string: SampleMessage
+After reading bytes: Sample
+After reading remaining bytes: Message
+Seeking back 
+Saved loc = 6
+Reading remaining bytes: Message
+bytes avail = 0
+Moving to saved loc = 6
+bytes avail = 4
+After reading bytes: Message
+Intentionally triggered exception: Impossible to write more data than free space
+Skipping asio test
+This message
+ is to be split
+This message is to be split
+ is to be split
+ is to be split
+0123456789ABCDEF0123456789ABCD
+buffer =01234
+56789ABCDEF0123456789ABCD
+456789ABCD
+Test1
+56789ABCDEF012345678
+Test2
+56789ABCDEF012345678
+Test3
+aaaaaaaaaaaaaaaaaaaa
+Test4
+hello there world 
+Leaving inner scope
+Deleting foreign string containing there 
+Leaving outer scope
+hello again there world 
+in there world 
+Deleting foreign string containing again 
+re world 
+Deleting foreign string containing there 
+world 
+00000000  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000010  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000020  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000030  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000040  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000050  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000060  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000070  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"buffertest" end time: Jun 16 15:15 CST
+"buffertest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: unittest
+2/12 Test: unittest
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/unittest"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"unittest" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 8 test cases...
+testing from -2147483648 to -2147482648 inclusive
+testing from -1000 to 1000 inclusive
+testing from 2147482647 to 2147483647 inclusive
+testing from -9223372036854775808 to -9223372036854774808 inclusive
+testing from -1000 to 1000 inclusive
+testing from 9223372036854774807 to 9223372036854775807 inclusive
+Before
+"null"
+null
+(intentional) exception: extra_info_mylong already exists and cannot be added
+(intentional) exception: Cannot add duplicate name: three
+(intentional) exception: Cannot add duplicate name: mylong
+After
+{
+    "type": "record",
+    "name": "RootRecord",
+    "fields": [
+        {
+            "name": "mylong",
+            "type": "long",
+            "extra_info_mylong": "it's a long field"
+        },
+        {
+            "name": "mymap",
+            "type": {
+                "type": "map",
+                "values": "int"
+            }
+        },
+        {
+            "name": "myarray",
+            "type": {
+                "type": "array",
+                "items": "double"
+            }
+        },
+        {
+            "name": "myenum",
+            "type": {
+                "type": "enum",
+                "name": "ExampleEnum",
+                "symbols": [
+                    "zero",
+                    "one",
+                    "two",
+                    "three"
+                ]
+            }
+        },
+        {
+            "name": "myunion",
+            "type": [
+                "null",
+                {
+                    "type": "map",
+                    "values": "int"
+                },
+                "float"
+            ]
+        },
+        {
+            "name": "nested",
+            "type": {
+                "type": "record",
+                "name": "NestedRecord",
+                "fields": [
+                    {
+                        "name": "floatInNested",
+                        "type": "float"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "mybool",
+            "type": "boolean"
+        },
+        {
+            "name": "myfixed",
+            "type": {
+                "type": "fixed",
+                "name": "fixed16",
+                "size": 16
+            }
+        },
+        {
+            "name": "mylong2",
+            "type": "long",
+            "extra_info_mylong2": "it's a long field",
+            "more_info_mylong2": "it's still a long field"
+        },
+        {
+            "name": "anotherint",
+            "type": "int"
+        }
+    ]
+}
+record RootRecord
+name mylong
+long
+name mymap
+map
+string
+int
+end map
+name myarray
+array
+double
+end array
+name myenum
+enum ExampleEnum
+name zero
+name one
+name two
+name three
+end enum
+name myunion
+union
+null
+map
+string
+int
+end map
+float
+end union
+name nested
+record NestedRecord
+name floatInNested
+float
+end record
+name mybool
+boolean
+name myfixed
+fixed fixed16 16
+end fixed
+name mylong2
+long
+name anotherint
+int
+end record
+Encoding
+Record
+Map
+Array
+Enum
+Union
+Null in union
+Record
+Bool
+Fixed16
+Long
+Int
+00000000  d0 0f 04 06 46 6f 6f 20  06 42 61 72 22 00 04 00  |....Foo .Bar"...|
+00000010  00 00 00 00 00 59 40 00  00 00 00 00 40 8f 40 00  |.....Y@.....@.@.|
+00000020  06 00 b6 33 ca c2 01 00  01 02 03 04 05 06 07 08  |...3............|
+00000030  09 0a 0b 0c 0d 0e 0f 86  8e d2 fa d7 ac 8e cb c2  |................|
+00000040  01 ff 35                                          |..5|
+Validating Encoding 0
+Record
+Map
+Array
+Enum
+Union
+Null in union
+Record
+Bool
+Fixed16
+Long
+Int
+00000000  d0 0f 04 06 46 6f 6f 20  06 42 61 72 22 00 04 00  |....Foo .Bar"...|
+00000010  00 00 00 00 00 59 40 00  00 00 00 00 40 8f 40 00  |.....Y@.....@.@.|
+00000020  06 00 b6 33 ca c2 01 00  01 02 03 04 05 06 07 08  |...3............|
+00000030  09 0a 0b 0c 0d 0e 0f 86  8e d2 fa d7 ac 8e cb c2  |................|
+00000040  01 ff 35                                          |..5|
+Validating Encoding 1
+Record
+Map
+Array
+Enum
+Union
+Map in union
+Record
+Bool
+Fixed16
+Long
+Int
+00000000  d0 0f 04 06 46 6f 6f 20  06 42 61 72 22 00 04 00  |....Foo .Bar"...|
+00000010  00 00 00 00 00 59 40 00  00 00 00 00 40 8f 40 00  |.....Y@.....@.@.|
+00000020  06 02 04 06 46 6f 6f 20  06 42 61 72 22 02 0c 46  |....Foo .Bar"..F|
+00000030  6f 6f 42 61 72 24 00 b6  33 ca c2 01 00 01 02 03  |ooBar$..3.......|
+00000040  04 05 06 07 08 09 0a 0b  0c 0d 0e 0f 86 8e d2 fa  |................|
+00000050  d7 ac 8e cb c2 01 ff 35                           |.......5|
+Validating Encoding 2
+Record
+Map
+Array
+Enum
+Union
+Float in union
+Record
+Bool
+Fixed16
+Long
+Int
+00000000  d0 0f 04 06 46 6f 6f 20  06 42 61 72 22 00 04 00  |....Foo .Bar"...|
+00000010  00 00 00 00 00 59 40 00  00 00 00 00 40 8f 40 00  |.....Y@.....@.@.|
+00000020  06 04 00 00 48 43 b6 33  ca c2 01 00 01 02 03 04  |....HC.3........|
+00000030  05 06 07 08 09 0a 0b 0c  0d 0e 0f 86 8e d2 fa d7  |................|
+00000040  ac 8e cb c2 01 ff 35                              |......5|
+Record
+Map
+Array
+Enum
+Union
+Map in union
+Record
+Bool
+Fixed16
+Long
+Int
+1000
+Size 2
+Foo:16
+Bar:17
+Size 0
+Size 2
+0:100
+1:1000
+Size 0
+Enum choice 3
+Union path 1
+Size 2
+Foo:16
+Bar:17
+Size 1
+FooBar:18
+Size 0
+-101.101
+1
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+7010728798977672067
+-3456
+Next: "record" record: "RootRecord"
+Next: "long" record: "RootRecord" field: "mylong"
+1000
+Next: "map" record: "RootRecord" field: "mymap"
+Size 2
+Next: "string"
+Next: "int"
+Foo:16
+Next: "string"
+Next: "int"
+Bar:17
+Next: "map" record: "RootRecord" field: "mymap"
+Size 0
+Next: "array" record: "RootRecord" field: "myarray"
+Size 2
+Next: "double"
+0:100
+Next: "double"
+1:1000
+Next: "array" record: "RootRecord" field: "myarray"
+Size 0
+Next: "enum" record: "RootRecord" field: "myenum"
+Enum choice 3
+Next: "union" record: "RootRecord" field: "myunion"
+Union path 1
+Next: "map" record: "RootRecord" field: "myunion"
+Size 2
+Next: "string"
+Next: "int"
+Foo:16
+Next: "string"
+Next: "int"
+Bar:17
+Next: "map" record: "RootRecord" field: "myunion"
+Size 1
+Next: "string"
+Next: "int"
+FooBar:18
+Next: "map" record: "RootRecord" field: "myunion"
+Size 0
+Next: "record" record: "NestedRecord" field: "nested"
+Next: "float" record: "NestedRecord" field: "floatInNested"
+-101.101
+Next: "boolean" record: "RootRecord" field: "mybool"
+1
+Next: "fixed" record: "RootRecord" field: "myfixed"
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Next: "long" record: "RootRecord" field: "mylong2"
+7010728798977672067
+Next: "int" record: "RootRecord" field: "anotherint"
+-3456
+{
+    "type": "array",
+    "items": {
+        "type": "record",
+        "name": "complex",
+        "fields": [
+            {
+                "name": "real",
+                "type": "double"
+            },
+            {
+                "name": "imaginary",
+                "type": "double"
+            }
+        ]
+    }
+}
+TestNested
+{
+    "type": "record",
+    "name": "LongListContainer",
+    "fields": [
+        {
+            "name": "list",
+            "type": {
+                "type": "record",
+                "name": "LongList",
+                "fields": [
+                    {
+                        "name": "value",
+                        "type": "long"
+                    },
+                    {
+                        "name": "next",
+                        "type": [
+                            "null",
+                            "LongList"
+                        ]
+                    },
+                    {
+                        "name": "end",
+                        "type": "boolean"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "array_tree",
+            "type": {
+                "type": "record",
+                "name": "ArrayTree",
+                "fields": [
+                    {
+                        "name": "label",
+                        "type": "string"
+                    },
+                    {
+                        "name": "children",
+                        "type": {
+                            "type": "array",
+                            "items": "ArrayTree"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
+record LongListContainer
+name list
+record LongList
+name value
+long
+name next
+union
+null
+symbolic LongList
+end union
+name end
+boolean
+end record
+name array_tree
+record ArrayTree
+name label
+string
+name children
+array
+symbolic ArrayTree
+end array
+end record
+end record
+No recurse
+Recurse
+00000000  02 00 01 16 68 65 6c 6c  6f 20 77 6f 72 6c 64 00  |....hello world.|
+00000000  02 02 04 02 06 00 00 00  01 02 61 04 04 61 61 02  |..........a..aa.|
+00000010  06 61 61 61 00 00 04 61  62 00 00                 |.aaa...ab..|
+ParseNoRecurse
+No recurse
+longval = 1
+bval = 1
+label = hello world
+ParseRecurse
+Recurse
+longval = 1
+longval = 2
+longval = 3
+bval = 0
+bval = 0
+bval = 1
+label = a
+label = aa
+label = aaa
+label = ab
+DecodeNoRecurse
+Encode no recurse
+longval = 1
+bval = 1
+label = hello world
+DecodeRecurse
+Encode recurse
+longval = 1
+longval = 2
+longval = 3
+bval = 0
+bval = 0
+bval = 1
+label = a
+array block size = 2
+label = aa
+array block size = 1
+label = aaa
+label = ab
+DecodeNoRecurseJson
+Encode no recurse
+longval = 1
+bval = 1
+label = hello world
+DecodeRecurseJson
+Encode recurse
+longval = 1
+longval = 2
+longval = 3
+bval = 0
+bval = 0
+bval = 1
+label = a
+array block size = 1
+label = aa
+array block size = 1
+label = aaa
+array block size = 1
+label = ab
+TestGenerated
+00000000  c8 01 00 00 48 43                                 |....HC|
+TestBadStuff
+TestBadFile
+(intentional) error: Input stream is not good
+TestBadSchema
+(intentional) error: Unknown type definition: {"type":"wrong"}
+TestResolution
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"unittest" end time: Jun 16 15:15 CST
+"unittest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: SchemaTests
+3/12 Test: SchemaTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/SchemaTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"SchemaTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 149 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SchemaTests" end time: Jun 16 15:15 CST
+"SchemaTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: LargeSchemaTests
+4/12 Test: LargeSchemaTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/LargeSchemaTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"LargeSchemaTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LargeSchemaTests" end time: Jun 16 15:15 CST
+"LargeSchemaTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: CodecTests
+5/12 Test: CodecTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/CodecTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"CodecTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 801 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"CodecTests" end time: Jun 16 15:15 CST
+"CodecTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: StreamTests
+6/12 Test: StreamTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/StreamTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"StreamTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 53 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StreamTests" end time: Jun 16 15:15 CST
+"StreamTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: SpecificTests
+7/12 Test: SpecificTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/SpecificTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"SpecificTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 12 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SpecificTests" end time: Jun 16 15:15 CST
+"SpecificTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: DataFileTests
+8/12 Test: DataFileTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/DataFileTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"DataFileTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 62 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"DataFileTests" end time: Jun 16 15:15 CST
+"DataFileTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: JsonTests
+9/12 Test: JsonTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/JsonTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"JsonTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 30 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"JsonTests" end time: Jun 16 15:15 CST
+"JsonTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: AvrogencppTests
+10/12 Test: AvrogencppTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/AvrogencppTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"AvrogencppTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 5 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AvrogencppTests" end time: Jun 16 15:15 CST
+"AvrogencppTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: CompilerTests
+11/12 Test: CompilerTests
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/CompilerTests"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"CompilerTests" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 2 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CompilerTests" end time: Jun 16 15:15 CST
+"CompilerTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: AvrogencppTestReservedWords
+12/12 Test: AvrogencppTestReservedWords
+Command: "/home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++/build/AvrogencppTestReservedWords"
+Directory: /home/xuwenlong/lycium/main/avro/avro-release-1.11.1/lang/c++
+"AvrogencppTestReservedWords" start time: Jun 16 15:15 CST
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AvrogencppTestReservedWords" end time: Jun 16 15:15 CST
+"AvrogencppTestReservedWords" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 16 15:15 CST
